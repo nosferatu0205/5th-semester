@@ -1,0 +1,37 @@
+.error{
+  color: red;
+}
+
+.success{
+    color: green;
+}
+
+#color{
+    color: black;
+    text-align: center;
+    border-style: dashed;
+}
+
+#coco{
+    border-style: solid;
+    margin: 70px 70px 70px 170px;
+    padding: 70px;
+}
+
+#perababa{
+    color: blue;
+    border: 10px;
+    border-style: solid;
+}
+
+a:link{
+    color: pink;
+}
+
+a:hover{
+    color: paleturquoise;
+}
+
+a:visited{
+    color: blueviolet;
+}

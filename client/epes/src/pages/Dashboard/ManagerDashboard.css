@@ -1,0 +1,18 @@
+.ManagerDashboard {
+  background-color: #f5f5f5;
+}
+
+.btn-card {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-card:hover {
+  transform: scale(1.1);
+}

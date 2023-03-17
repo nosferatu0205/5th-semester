@@ -1,0 +1,17 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 25%;
+    height: 100vh;
+    background-color: #38526b;
+    padding: 2rem;
+    z-index: 9999;
+    transition: right 0.5s ease-in-out;
+  }
+  
+  .sidebar.show {
+    right: 0;
+  }
+
+   

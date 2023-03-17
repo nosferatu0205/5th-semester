@@ -1,0 +1,42 @@
+.add-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url('bg.png');
+    height: 100vh;
+}
+
+.add-user-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.add-user-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.add-user-link {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-user-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.add-user-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
